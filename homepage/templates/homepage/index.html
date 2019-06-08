@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Michael Verano</title>
+    <link rel="stylesheet"  href="{% static 'homepage/index.css' %}">
+
+    <!--favicon bug fix -->
+    <link rel="shortcut icon" href="">
+    
+  </head>
+  
+  <div class="picture" id="picture">
+    <img src="{% static 'homepage/michaelverano.jpeg' %}">
+    <header>
+      <h1>Michael Verano</h1>
+    </header>
+
+  </div>
+
+  <body>
+    
+    <nav>
+      <!--menu -->
+      <div class="menu">
+	<span id="lipidomics">
+	  Lipidomics
+	</span>
+	
+	<span>
+	  |
+	</span>
+
+	<span id="mass-spec">
+	  Mass Spectrometry
+	</span>
+
+	<span>
+	  |
+	</span>
+
+	<span>
+	  Software Engineering
+	</span>
+
+	<span>
+	  |
+	</span>
+
+	<span>
+	  Data Science
+	</span>
+      </div>
+    </nav>
+
+    
+    <!-- Social Media -->
+    <div class="social-media">
+      <span id="linkedin">
+	<a href="https://linkedin.com/in/michael-verano-510a38a2/">
+	  <img src="{% static 'homepage/linkedin.png' %}"/>
+	</a>
+      </span>
+
+      <span id="github">
+	<a href="https://github.com/michaelverano">
+	  <img src="{% static 'homepage/github.png' %}"/>
+	</a>
+	
+      </span>
+    </div>
+
+    <div class="resume">
+      <a href="{% url 'resume:index' %}">Resume</a>
+    </div>
+
+    <div class="pubmed">
+      <a href="https://ncbi.nlm.nih.gov/pubmed/?term=VERANO+M">Publications</a>
+    </div>
+    
+  </body>
+
+  
+</html>

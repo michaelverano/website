@@ -1,0 +1,24 @@
+.menu {
+    white-space: nowrap;
+    display: inline-border;
+    float: left;
+    width: 70px;
+    position: relative;
+}
+
+.social-media {
+    margin-top: 60px;
+    clear: both;
+}
+
+#linkedin {
+    margin-right: 10px;
+}
+
+.about-me {
+    margin-top: 20px;
+}
+
+.resume {
+    margin-top: 20px;
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+  <head>
+    <meta charset="utr-8">
+    <title>Michael Verano - Resume</title>
+    </div>
+    
+    <link rel="stylesheet" href="{% static 'resume/index.css' %}">
+    
+    <!-- favicon bug fix -->
+    <link rel="shortcut icon" href="">
+    
+  </head>
+
+  <body>
+
+    
+    <!--header -->
+    <!--name, and contact -->
+    <div class="header">
+      <div id="name">
+	<span>
+	  <h1>Michael Verano
+	    <a href="https://linkedin.com/in/michael-verano-510a38a2/">
+	      <img src="{% static 'homepage/linkedin.png' %}">
+	    </a>
+	  </h1>
+	</span>
+	
+      </div>
+
+      <hr id="header-seperator">
+
+    </div>
+    
+
+    <!--Summary -->
+    <div class="summary">
+      <p>I am a mass spectrometrist working in metabolomics/lipidomics with an interest in writing software. </p>
+    </div>
+    
+    
+    <!--Skillsets -->
+    <div class="skillsets">
+      <h2 id="skillsets">Skillsets</h2>
+      <hr id="section-seperator">
+
+      <div class="programming">
+	Programming
+	<!--python -->
+	<li>
+	  <span>python</span>
+	  <span> - </span>
+	  <span>Django</span>
+	  <span>openpyxl</span>
+	  <span>scrapy</span>
+	  <span>etc.</span>
+	</li>
+
+	<!--R programming -->
+	<li>
+	  <span>R</span>
+	  <span> - </span>
+	  <span>ggplot</span>
+	  <span>tidyverse</span>
+	  <span>dplyr</span>
+	  <span>etc.</span>
+	</li>
+
+	<!--Java -->
+	<li>
+	  <span>Java</span>
+	  <span> - </span>
+	  <span>JavaFX</span>
+	</li>
+
+	<!-- Bash -->
+	<li>
+	  <span>Bash</span>
+	  
+	  <span> - </span>
+	  <span>command line terminal, and customization</span>
+	</li>
+
+	<!-- Mass Spectrometry -->
+	<div>Mass Spectrometry</div>
+	<li>Operating, troubleshooting, and analyzing samples</li>
+	<li>Vender Software - Agilent MassHunter (Qual, Mass Profiler Professional, Profinder)</li>
+	<li>Open Source Softare - MetaboAnalyst (XCMS), ProteoWizard</li>
+	<li>Aided in the development of creating methods for running mass spec</li>
+
+	<!-- General Lab Work -->
+	<div>Lab Work</div>
+	<li>Lab management</li>
+	<li>Cell Culture</li>
+	<li>Lipid isolation for flow cytometry</li>
+
+	<!-- web development -->
+	<div>Web Development</div>
+	<li>HTML, CSS</li>
+	<li>Wordpress - woocommerce</li>
+	<li>Django</li>
+      
+      </div>
+    </div>
+
+    
+
+    <!--Experience -->
+    <div class="experience-header">
+      <h2 id="experience">Experience</h2>
+      <hr id="section-seperator">
+    </div>
+
+    
+    <div class="experience">
+      <!-- NYU -->
+      <div id="NYUSOM">
+	<p class="job-title">Scientist, Lab Manager</p>
+	<p id="employer">New York University School of Medicine, 2016 - Present</p>
+	<div id="job-description">
+	  <li>Used liquid chromatograph and Time-of-flight Mass Spectrometry in metabolomics and lipidomics reseasrch.</li>
+	  <li>Prior knowledge in cell culture techniques updated to maintain cell lines and perform tracer experiments.</li>
+	  <li>Industry software knowledge built on Agilent's MassHunter platform: Qual Navigator, Qual Workflows, Mass Profiler Professional, Profinder, and Vistaflux.</li>
+	  <li>Programming Lanbguages used include R and Python for data visualization and organization. Python for text parsing and excel automation.</li>
+	  <li>Aided in the Development of isolation techniques on human adipose tissue for use in flow cytometry applications</li>
+	</div>
+      </div>
+
+      <div id="merchant-sidekick">
+	<p class="job-title">Founder</p>
+	<p id="employer">Merchant Sidekick, LLC, 2014 - Present</p>
+	<li>Import company focused on selling via e-commerce.</li>
+	<li>Establisehd relationships with vendors overseas and generated
+	  sales in the United States.</li>
+	<li>Found solutions to finance projects and market products online and offline</li>
+      </div>
+
+      <div id="rutgers">
+	<p class="job-title">Student Research Assistant</p>
+	<p id="employer">Susan Lehman Cullman Laboratory for Cancer Research, October 2010 - July 2013</p>
+	<li>Undergraduate researcher studying the effects of natural food compounds
+	  and their synthesized analogues on pancreated and colon cancers.</li>
+	<li>Research published in 4 journals.</li>
+	<li>Trained undergraduates, PhD candidates, and MD/PhD candidates on
+	  research techniques</l>
+      </div>
+
+      <div id="upenn">
+	<p class="job-title">Summer Research Intern</p>
+	<p id="employer">Summer Undergraduate Program for Educating Radiation Scientists at
+	  the University of Pennsylvani, June 2010 - August 2010</p>
+	<li>10 Week undergraduate program studying the effects of two pharmaceutical
+	  compounds and their effects on proteins in glioblastoma cancer cell-lines
+	  after radiation treatment.</li>
+	<li>Researched effects of phase I/II pharmaceutical compounds on U235 glioblastoma cancer cell lines on effects on Akt and mTOR.</li>
+	<li>Discussed findings to doctors and scientists from the Department of Radiation Oncology.</li>
+	<li>Experience working with radioactive machinery.</li>
+      </div>
+      
+    </div>
+    
+
+    <!--Publications -->
+    <div class="publications">
+      <h2 id="publications">Publications</h2>
+      <hr class="section-seperator">
+    </div>
+
+    <div>
+      <ul>
+	<li>
+	  <p id="authors">Zhu J, He J, <strong>Verano M</strong>, Brimmo AT, Glia A, Qasaimeh MA, Chen P, Aleman JO, Chen W.</p>
+	  <p id="title">"An integrated adipose-tissue-on-chip nanoplasmonic biosensing platform for investing obesity-associated inflammation."</p>
+	  <p id="where_to_find">Lab on Chip. 2018 Oct 10.</p>
+	</li>
+
+	<li>
+	  <p id="authors">Wei X, Du Zy, Cui XX, <strong>Verano M</strong>, Mo RQ, Tang ZK, Conney AH, Zheng X, Zhang K.</p>
+	  <p id="title">"Effects of cyclohexanone analogues of curcumin growth, apoptosis, and NF-kB activity in PC-3 human prostate cancer cells."</p>
+	  <p id="where_to_find">Oncology Letters. 2012 Aug; 4(2):279-284</p>
+	</li>
+
+	<li>
+	  <p id="authors">Zheng X, Cui XX, Gao Z <strong>Verano M</strong>, Huang MT, Liu Y, Rabson AB, Conney AH.</p>
+	  <p id="title">"Effects of 12-O-tetradecanoilphorbol-13-acetate in combination with gemcitabine on immunodeficient mice."</p>
+	  <p id="where_to_find">International Journal of Oncology. 2012 Dec, 41(6):2269-75</p>
+	</li>
+
+	<li>
+	  <p id="authors">Wei X, Zhou D, Ding N, Cui XX, Wang H, <strong>Verano M</strong>, Zhang K, Conney AH, Zheng X, Du Zy.</p>
+	  <p id="title">"Effects of pyridine analogs of curcumin on growth, apoptosis, and NF-kB activity on prostate cancer PC-3 cells."</p>
+	  <p id="where_to_find">Anticancer Research 2013 Apr, 33(4):1343-50</p>
+	</li>
+
+	<li>
+	  <p id="authors">Zhou Dy, Zhang K, Conney AH, Ding N, Cui XX, Wang H, <strong>Verano M</strong>, Zhao SQ, Fan YX, Zheng X, Du Zy</p>
+	  <p id="title">"Synthesis and evaluation of curcumin-related compounds containing benzylpipeidone for their effects on human cancer cells."</p>
+	  <p id="where_to_find">Chem Pharm Bull (Tokyo) 2013;61(11):1149-55</p>
+	</li>
+	
+      </ul>
+
+      <!--Education -->
+      <div class="education">
+	<h2 id="education">Education</h2>
+	<hr class="section-seperator">
+	</div>	
+
+	<div id="rutgers">
+	  <h3 id="university">Rutgers University, New Brunswick, NJ</h3>
+	  <p id="study-field">B.A. Molecular Biology and Biochemistry; Minor: Psychology, Entrepreneurship. May 2013</p>
+	</div>
+
+	<div class="bcc">
+	  <h3 id="university">Burlington Count College, Pemberton, NJ</h3>
+	  <p id="study-field">A.A.S. Biology, January 2010</p>
+	</div>
+	
+      </div>
+    
+    
+  </body>
+
+</html>
