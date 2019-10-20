@@ -1,0 +1,92 @@
+.header {
+    color: black;
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    margin-left: 3px;
+    margin-bottom: 0px;
+}
+
+#header-seperator {
+    height: 2px;
+    background-color: black;
+    border: none;
+    padding: none;
+}
+
+#skillsets {
+    margin-left: 3px;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+.section-seperator {
+    height: 1px;
+    background-color: black;
+    border: none;
+    padding: none;
+    margin-bottom: 0px;
+}
+
+#experience {
+    margin-left: 3px;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+.job-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: inline;
+    font-size: 26px;
+}
+
+#employer {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.job-description {
+    margin-top: 0px;
+    position: relative;
+}
+
+#publications {
+    font-size: 32px;
+    margin-left: 3px;
+    margin-bottom: 0px;
+}
+
+#authors,
+#title,
+#where_to_find {
+    margin: 0px 0px 0px 0px;
+}
+
+#education {
+    font-size: 32px;
+    margin-left: 3px;
+    margin-bottom: 0px;
+}
+
+#rutgers,
+#bcc {
+    margin: 0px 0px 0px 0px;
+}
+
+#university {
+    margin: 0px 0px 0px 0px;1
+}
+
+#study-field {
+    margin: 0px 0px 0px 0px;
+}
+
+body {
+    padding-bottom: 20px;
+}
